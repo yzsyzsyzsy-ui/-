@@ -1,0 +1,422 @@
+{
+  "ranks": [
+    {
+      "rank": "B",
+      "next": "A",
+      "chance": 1.0,
+      "asset": "assets/player/player-b.svg"
+    },
+    {
+      "rank": "A",
+      "next": "A+",
+      "chance": 0.8,
+      "asset": "assets/player/player-a.svg"
+    },
+    {
+      "rank": "A+",
+      "next": "S",
+      "chance": 0.75,
+      "asset": "assets/player/player-aplus.svg"
+    },
+    {
+      "rank": "S",
+      "next": "S+",
+      "chance": 0.7,
+      "asset": "assets/player/player-s.svg"
+    },
+    {
+      "rank": "S+",
+      "next": null,
+      "chance": 0,
+      "asset": "assets/player/player-splus.svg"
+    }
+  ],
+  "dungeons": [
+    {
+      "stage": 1,
+      "name": "과거의 회랑",
+      "boss": "과거 지배자",
+      "minion": "과거 하수인",
+      "bossAsset": "assets/bosses/past-sovereign.svg",
+      "minionAsset": "assets/bosses/past-servant.svg",
+      "background": "assets/backgrounds/dungeon-1.svg",
+      "power": 75
+    },
+    {
+      "stage": 2,
+      "name": "의심의 수렁",
+      "boss": "의심의 군주",
+      "minion": "속삭임 파편",
+      "bossAsset": "assets/bosses/doubt-lord.svg",
+      "minionAsset": "assets/bosses/whisper-shard.svg",
+      "background": "assets/backgrounds/dungeon-2.svg",
+      "power": 115
+    },
+    {
+      "stage": 3,
+      "name": "정체의 성채",
+      "boss": "관성의 폭군",
+      "minion": "무기력 망령",
+      "bossAsset": "assets/bosses/inertia-tyrant.svg",
+      "minionAsset": "assets/bosses/apathy-wraith.svg",
+      "background": "assets/backgrounds/dungeon-3.svg",
+      "power": 160
+    },
+    {
+      "stage": 4,
+      "name": "혼돈의 관문",
+      "boss": "혼돈의 관측자",
+      "minion": "갈등의 사도",
+      "bossAsset": "assets/bosses/chaos-observer.svg",
+      "minionAsset": "assets/bosses/conflict-apostle.svg",
+      "background": "assets/backgrounds/dungeon-4.svg",
+      "power": 215
+    },
+    {
+      "stage": 5,
+      "name": "미래의 종말점",
+      "boss": "미래 포식자",
+      "minion": "가능성 약탈자",
+      "bossAsset": "assets/bosses/future-devourer.svg",
+      "minionAsset": "assets/bosses/possibility-raider.svg",
+      "background": "assets/backgrounds/dungeon-5.svg",
+      "power": 280
+    }
+  ],
+  "talentStages": [
+    {
+      "stage": 1,
+      "background": "assets/backgrounds/forest-1.svg",
+      "items": [
+        {
+          "id": "warrior-spear",
+          "name": "창공을 가르는 전사의 창",
+          "asset": "assets/items/warrior-spear.svg",
+          "slot": "weapon",
+          "condition": "vocal1",
+          "stats": {
+            "attack": 11,
+            "magic": 7,
+            "speed": 2,
+            "defense": 1
+          }
+        },
+        {
+          "id": "assassin-dagger",
+          "name": "그림자 암살자의 단검",
+          "asset": "assets/items/assassin-dagger.svg",
+          "slot": "weapon",
+          "condition": "boxing1",
+          "stats": {
+            "attack": 8,
+            "magic": 1,
+            "speed": 12,
+            "defense": 0
+          }
+        },
+        {
+          "id": "swordsman-greatsword",
+          "name": "은빛 검사의 대검",
+          "asset": "assets/items/swordsman-greatsword.svg",
+          "slot": "weapon",
+          "condition": "skin1",
+          "stats": {
+            "attack": 14,
+            "magic": 1,
+            "speed": 1,
+            "defense": 4
+          }
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "background": "assets/backgrounds/forest-2.svg",
+      "items": [
+        {
+          "id": "assassin-coat",
+          "name": "밤안개 암살자의 코트",
+          "asset": "assets/items/assassin-coat.svg",
+          "slot": "top",
+          "condition": "boxing2",
+          "stats": {
+            "attack": 2,
+            "magic": 2,
+            "speed": 13,
+            "defense": 7
+          }
+        },
+        {
+          "id": "warrior-armor",
+          "name": "천둥 전사의 갑옷",
+          "asset": "assets/items/warrior-armor.svg",
+          "slot": "top",
+          "condition": "vocal2",
+          "stats": {
+            "attack": 7,
+            "magic": 9,
+            "speed": 1,
+            "defense": 12
+          }
+        },
+        {
+          "id": "swordsman-shield",
+          "name": "백은 검사의 방패",
+          "asset": "assets/items/swordsman-shield.svg",
+          "slot": "shield",
+          "condition": "skin2",
+          "stats": {
+            "attack": 2,
+            "magic": 2,
+            "speed": 0,
+            "defense": 17
+          }
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "background": "assets/backgrounds/forest-3.svg",
+      "items": [
+        {
+          "id": "phantom-boots",
+          "name": "환영보법의 장화",
+          "asset": "assets/items/phantom-boots.svg",
+          "slot": "shoes",
+          "condition": "boxing3",
+          "stats": {
+            "attack": 3,
+            "magic": 2,
+            "speed": 18,
+            "defense": 5
+          }
+        },
+        {
+          "id": "resonance-bracelet",
+          "name": "공명의 전투 팔찌",
+          "asset": "assets/items/resonance-bracelet.svg",
+          "slot": "bracelet",
+          "condition": "vocal3",
+          "stats": {
+            "attack": 6,
+            "magic": 16,
+            "speed": 3,
+            "defense": 4
+          }
+        },
+        {
+          "id": "mirror-greaves",
+          "name": "거울빛 수호 각반",
+          "asset": "assets/items/mirror-greaves.svg",
+          "slot": "bottom",
+          "condition": "skin3",
+          "stats": {
+            "attack": 3,
+            "magic": 3,
+            "speed": 5,
+            "defense": 19
+          }
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "background": "assets/backgrounds/forest-4.svg",
+      "items": [
+        {
+          "id": "eclipse-blades",
+          "name": "일식의 쌍월검",
+          "asset": "assets/items/eclipse-blades.svg",
+          "slot": "weapon",
+          "condition": "boxing4",
+          "stats": {
+            "attack": 23,
+            "magic": 5,
+            "speed": 22,
+            "defense": 2
+          }
+        },
+        {
+          "id": "dragonvoice-mantle",
+          "name": "용음의 지배자 망토",
+          "asset": "assets/items/dragonvoice-mantle.svg",
+          "slot": "top",
+          "condition": "vocal4",
+          "stats": {
+            "attack": 8,
+            "magic": 25,
+            "speed": 6,
+            "defense": 14
+          }
+        },
+        {
+          "id": "celestial-aegis",
+          "name": "성운의 절대방패",
+          "asset": "assets/items/celestial-aegis.svg",
+          "slot": "shield",
+          "condition": "skin4",
+          "stats": {
+            "attack": 4,
+            "magic": 9,
+            "speed": 2,
+            "defense": 30
+          }
+        }
+      ]
+    }
+  ],
+  "challenges": {
+    "vocal1": {
+      "category": "보컬",
+      "level": 1,
+      "title": "전사의 첫 울림",
+      "description": "‘당신을 위하여 - 더 크로스’를 완창했다고 체크하세요.",
+      "type": "check"
+    },
+    "vocal2": {
+      "category": "보컬",
+      "level": 2,
+      "title": "강철의 호흡",
+      "description": "‘말리꽃 - 이승철’을 완창했다고 체크하세요.",
+      "type": "check"
+    },
+    "vocal3": {
+      "category": "보컬",
+      "level": 3,
+      "title": "심연의 고음",
+      "description": "‘어디에도 - MC the MAX’를 완창했다고 체크하세요.",
+      "type": "check"
+    },
+    "vocal4": {
+      "category": "보컬",
+      "level": 4,
+      "title": "용의 절규",
+      "description": "‘My Way - 이수’를 완창했다고 체크하세요.",
+      "type": "check"
+    },
+    "boxing1": {
+      "category": "복싱",
+      "level": 1,
+      "title": "그림자의 기본기",
+      "description": "스텝, 원투, 위빙, 더킹, 훅, 어퍼컷 중 5개 이상을 5단계 이상으로 올리세요.",
+      "type": "boxingSkills"
+    },
+    "boxing2": {
+      "category": "복싱",
+      "level": 2,
+      "title": "연속 충격",
+      "description": "펀치 기계 9600 이상을 2회 연속 달성했다고 체크하세요. 무리하게 시도하지 마세요.",
+      "type": "doubleCheck"
+    },
+    "boxing3": {
+      "category": "복싱",
+      "level": 3,
+      "title": "실전의 한 걸음",
+      "description": "안전장비와 지도자 감독 아래 스파링 1회 승리를 기록하세요.",
+      "type": "check"
+    },
+    "boxing4": {
+      "category": "복싱",
+      "level": 4,
+      "title": "투기의 증명",
+      "description": "안전한 규칙과 감독 아래 체육대회 또는 공식 경기 1회 승리를 기록하세요.",
+      "type": "check"
+    },
+    "skin1": {
+      "category": "피부관리",
+      "level": 1,
+      "title": "기초 정돈",
+      "description": "자극 없는 기본 관리 루틴을 7일 유지하고 피부 상태가 안정됐다고 기록하세요.",
+      "type": "check"
+    },
+    "skin2": {
+      "category": "피부관리",
+      "level": 2,
+      "title": "맑은 표면",
+      "description": "코 주변 피지·블랙헤드 관리를 자극 없이 마쳤다고 기록하세요.",
+      "type": "check"
+    },
+    "skin3": {
+      "category": "피부관리",
+      "level": 3,
+      "title": "균형 유지",
+      "description": "본인에게 맞는 피부 관리 루틴을 1주일 유지했다고 체크하세요.",
+      "type": "check"
+    },
+    "skin4": {
+      "category": "피부관리",
+      "level": 4,
+      "title": "꾸준함의 완성",
+      "description": "무리하지 않는 피부 관리 루틴을 30일 유지했다고 체크하세요.",
+      "type": "check"
+    }
+  },
+  "systemShop": [
+    {
+      "id": "heal-potion",
+      "name": "전투 회복 포션",
+      "price": 8,
+      "description": "다음 던전 전투에서 전투력 +12",
+      "type": "consumable",
+      "effect": {
+        "battleBoost": 12
+      }
+    },
+    {
+      "id": "attack-stone",
+      "name": "공격 강화석",
+      "price": 18,
+      "description": "영구 공격 보너스 +2",
+      "type": "upgrade",
+      "effect": {
+        "attack": 2
+      }
+    },
+    {
+      "id": "magic-stone",
+      "name": "마력 강화석",
+      "price": 18,
+      "description": "영구 마력 보너스 +2",
+      "type": "upgrade",
+      "effect": {
+        "magic": 2
+      }
+    },
+    {
+      "id": "defense-stone",
+      "name": "수호 강화석",
+      "price": 18,
+      "description": "영구 방어 보너스 +2",
+      "type": "upgrade",
+      "effect": {
+        "defense": 2
+      }
+    }
+  ],
+  "slots": [
+    {
+      "id": "weapon",
+      "name": "검·무기"
+    },
+    {
+      "id": "shield",
+      "name": "방패"
+    },
+    {
+      "id": "top",
+      "name": "상의"
+    },
+    {
+      "id": "bottom",
+      "name": "하의"
+    },
+    {
+      "id": "shoes",
+      "name": "신발"
+    },
+    {
+      "id": "bracelet",
+      "name": "팔찌"
+    }
+  ]
+}

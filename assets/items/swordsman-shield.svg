@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071326"/><stop offset=".55" stop-color="#081530"/><stop offset="1" stop-color="#150c2d"/></linearGradient>
+<linearGradient id="armor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#263e66"/><stop offset=".5" stop-color="#0c172b"/><stop offset="1" stop-color="#060a13"/></linearGradient>
+<linearGradient id="energy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6ee7ff"/><stop offset=".5" stop-color="#3b82f6"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+</defs><rect width="600" height="900" fill="url(#bg)"/><circle cx="300" cy="440" r="250" fill="#cbd5e1" opacity=".16" filter="url(#soft)"/><path d="M300 120 Q440 180 435 330 L410 610 Q370 730 300 790 Q230 730 190 610 L165 330 Q160 180 300 120Z" fill="#cbd5e1" opacity=".8" stroke="#fff" stroke-width="8"/></svg>
